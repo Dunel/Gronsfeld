@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptación de Gronsfeld</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Encriptación de Gronsfeld</h1>
+      <label for="frase">Frase a ser codificada:</label>
+      <input type="text" id="frase" placeholder="Ingrese la frase">
+  
+      <label for="clave">Clave de Cifrado:</label>
+      <input type="number" id="clave" placeholder="Ingrese la clave">
+  
+      <button onclick="codificar()">Codificar</button>
+  
+      <h2>Resultado:</h2>
+      <p>Frase Sin Codificar: <span id="fraseSinCodificar"></span></p>
+      <p>Clave de Cifrado: <span id="claveCifrado"></span></p>
+      <p>Frase Codificada: <span id="fraseCodificada"></span></p>
+      <script src="codificar.js"></script>
+    </div>
+</body>
+</html>

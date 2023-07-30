@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('maxresdefault4.jpg'); /* Reemplaza 'nombre_de_la_imagen.jpg' con la ruta de tu imagen */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: black; /* Cambia el fondo del .container a negro */
+  opacity: 0.8; /* Ajusta la opacidad si deseas que la imagen de fondo se muestre más */
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="number"],
+button {
+  display: block;
+  margin-bottom: 16px;
+  padding: 8px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+p {
+  margin-bottom: 8px;
+}
